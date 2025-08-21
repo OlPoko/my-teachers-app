@@ -6,6 +6,9 @@ import styles from "./AuthNav.module.css";
 export default function AuthNav() {
   return (
     <>
+      <svg className={styles.logoutIcon}>
+        <use href="../../../public/log-in-01.svg" />
+      </svg>
       <NavLink to="/login" className={getClassActiveLink(styles)}>
         Log in
       </NavLink>

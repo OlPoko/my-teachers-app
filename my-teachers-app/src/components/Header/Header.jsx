@@ -2,14 +2,13 @@ import { NavLink, Link } from "react-router-dom";
 import styles from "./Header.module.css";
 import AuthNav from "../AuthNav/AuthNav";
 import { getClassActiveLink } from "../../utils/getClassActiveLink";
+import Logo from "../Logo/Logo";
 
 export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.container}>
-        <Link to="/" className={styles.logo}>
-          LearnLingo
-        </Link>
+        <Logo />
 
         <nav className={styles.nav}>
           <NavLink to="/" className={getClassActiveLink(styles)}>

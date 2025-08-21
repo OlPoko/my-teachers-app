@@ -66,11 +66,6 @@ textarea {
   cursor: pointer;
 }
 
-/* Cursor for buttons */
-button {
-  cursor: pointer;
-}
-
 /* Images responsive by default */
 img {
   max-width: 100%;
