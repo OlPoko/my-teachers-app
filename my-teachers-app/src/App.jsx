@@ -4,6 +4,8 @@ import Home from "./pages/Home/Home";
 import Teachers from "./pages/Teachers/Teachers";
 import Favorites from "./pages/Favorites/Favorites";
 import Header from "./components/Header/Header";
+import LoginForm from "./components/LoginForm/LoginForm";
+import RegistrationForm from "./components/RegistrationForm/RegistrationForm";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <Route path="/" element={<Home />}></Route>
         <Route path="/teachers" element={<Teachers />}></Route>
         <Route path="/favorites" element={<Favorites />}></Route>
+        <Route path="/login" element={<LoginForm />}></Route>
+        <Route path="/register" element={<RegistrationForm />}></Route>
       </Routes>
     </div>
   );
