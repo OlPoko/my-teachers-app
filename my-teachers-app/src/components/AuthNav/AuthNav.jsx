@@ -5,16 +5,17 @@ import styles from "./AuthNav.module.css";
 
 export default function AuthNav() {
   return (
-    <>
+    <div className={styles.authContainer}>
       <svg className={styles.logoutIcon}>
         <use href="../../../public/log-in-01.svg" />
       </svg>
+
       <NavLink to="/login" className={getClassActiveLink(styles)}>
         Log in
       </NavLink>
       <NavLink to="/register" className={getClassActiveLink(styles)}>
         Register
       </NavLink>
-    </>
+    </div>
   );
 }

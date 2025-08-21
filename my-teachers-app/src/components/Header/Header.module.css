@@ -14,11 +14,6 @@
   align-items: center;
 }
 
-/* .logo {
-  width: 20px;
-  height: 20px;
-} */
-
 .nav {
   display: flex;
   gap: 20px;
